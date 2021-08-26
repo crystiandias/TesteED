@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <style>
+        #menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            background-color: rgb(0,0,0);
+        }
+        #botao{
+                height: 60px;
+                width: 200px;
+text-decoration-color: rgb(255, 255, 255);
+background-color: rgb(0,0,0);
+border-color: rgb(0,0,0);
+color:rgb(255, 255, 255);
+            }
+            #div1{
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: -webkit-gradient(linear, left top, left bottom, from(#CCCCCC), to(#000000));
+                background: -moz-linear-gradient(top, #CCCCCC, #000000);
+                filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+               
+            }
+            input{
+                width: 200px;
+                height: 400px;
+            }
+            #botao2{
+            text-decoration-color: rgb(255, 255, 255);
+            background-color: rgb(0,0,0);
+            border-color: rgb(0,0,0);
+            color:rgb(255, 255, 255);  
+        }
+            #visualiza{
+                width: 800px;
+                height: 400px; 
+                background-color: rgb(255, 255, 255);
+            }
+        </style>
+    </head>
+    <body>
+     <div id="div1" class="container"><div id="menu">
+        <a href="principal.html"><button id="botao"><h2>Home</h2></button></a>
+        <button id="botao"><h3>Criar Novo Site</h3></button>
+        <button id="botao"><h2>Ajuda</h2></button>
+        <button id="botao"><h2></h2></button>
+        </div>
+        <input type="text">
+        <a href="criacao.html"><button id="botao2">Visualizar</button></a>
+        <div id="visualiza"></div>
+        </div> 
+        
+    </body>
+</html>

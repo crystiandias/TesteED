@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style >
+           
+            #div1{
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: -webkit-gradient(linear, left top, left bottom, from(#CCCCCC), to(#000000));
+                background: -moz-linear-gradient(top, #CCCCCC, #000000);
+                filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center
+            }
+            #div2{
+    background-color: rgba(155, 153, 153, 0.945);
+    height: 50%;
+    width: 350px;
+            }
+            input{
+                border-top-color: rgba(0,0,0,0) ;
+                border-right-color: rgba(0,0,0,0);
+                border-left-color: rgba(0,0,0,0);
+                border-bottom-color: black;
+                background-color: rgb(175, 172, 172);
+                vertical-align: middle;
+                text-align: center;
+            }
+            label{
+                vertical-align: middle;
+                text-align: center;
+            }
+            h2{
+                display: table-cell;
+                vertical-align: top;
+                text-align: center;
+            }
+            button{
+                vertical-align: sub;
+            
+                }
+        </style>
+    </head>
+    <body >
+<div id="div1" class="container">
+    <div id="div2">
+        <center><h2>Login</h2><br><br></center>
+        <center><label for="fname">Nome de Usuario:</label><br></center>
+        <center><input type="text" id="fname" name="fname"><br></center>
+        <center><label for="pwd">Senha :</label><br></center>
+        <center><input type="password" id="pwd" name="pwd"><br></center>
+        <center><button type="button">Cancelar</button>
+        <a href="principal.html"><button type="button">Login</button></a></center>
+    </div>
+
+</div>
+
+    </body>
+</html>
+
+    
